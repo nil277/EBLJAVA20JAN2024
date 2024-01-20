@@ -1,5 +1,6 @@
 package com.wecp.progressive.service;
 
+<<<<<<< HEAD
 import java.sql.SQLException;
 
 import com.wecp.progressive.config.DatabaseConnectionManager;
@@ -82,5 +83,8 @@ public class CustomerServiceImpl implements CustomerService{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'emptyArrayList'");
     }
+=======
+public class CustomerServiceImpl {
+>>>>>>> fa2bfa1798830c88a59211149d9c4082b143d0d6
 
 }

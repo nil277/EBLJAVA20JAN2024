@@ -3,6 +3,7 @@ package com.wecp.progressive.entity;
 
 
 public class Customers {
+
     private int customerId;
     private String name;
     private String email;
@@ -55,4 +56,7 @@ public class Customers {
     public void setRole(String role) {
         this.role = role;
     }
+=======
+//git
+
 }

@@ -2,7 +2,7 @@ package com.wecp.progressive.entity;
 import java.util.Date;
 
 
-public class Transactions {
+public class Transactions{
     private int transactionId;
     private int accountId;
     private double amount;
