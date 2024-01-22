@@ -56,6 +56,7 @@ public class Customers implements Comparable<Customers>{
     public void setRole(String role) {
         this.role = role;
     }
+ 
     @Override
     public int compareTo(Customers o) {
         // TODO Auto-generated method stub
@@ -64,3 +65,4 @@ public class Customers implements Comparable<Customers>{
 
     
 }
+
