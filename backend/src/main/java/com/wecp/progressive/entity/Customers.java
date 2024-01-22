@@ -1,8 +1,8 @@
 package com.wecp.progressive.entity;
 
+import java.util.*;
 
-
-public class Customers {
+public class Customers implements Comparable<Customers>{
 
     private int customerId;
     private String name;
@@ -56,7 +56,11 @@ public class Customers {
     public void setRole(String role) {
         this.role = role;
     }
-=======
-//git
+    @Override
+    public int compareTo(Customers o) {
+        // TODO Auto-generated method stub
+        return this.name.compareTo(o.getName());
+    }
 
+    
 }
