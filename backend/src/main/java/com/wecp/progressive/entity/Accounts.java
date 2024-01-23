@@ -19,6 +19,10 @@ public class Accounts implements Comparable<Accounts>,Comparator<Accounts>{
     public void setAccountId(int accountId) {
         this.accountId = accountId;
     }
+    @Override
+    public String toString() {
+        return "Accounts [accountId=" + accountId + ", customerId=" + customerId + ", balance=" + balance + "]";
+    }
     public int getCustomerId() {
         return customerId;
     }

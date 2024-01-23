@@ -62,7 +62,10 @@ public class Customers implements Comparable<Customers>{
         // TODO Auto-generated method stub
         return this.name.compareTo(o.getName());
     }
-
-    
+    @Override
+    public String toString() {
+        return "Customers [customerId=" + customerId + ", name=" + name + ", email=" + email + ", userName=" + userName
+                + ", password=" + password + ", role=" + role + "]";
+    }
 }
 

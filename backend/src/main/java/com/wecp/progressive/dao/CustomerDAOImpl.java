@@ -8,6 +8,45 @@ import java.sql.*;
 import java.util.*;
 
 public class CustomerDAOImpl implements CustomerDAO{
+
+    @Override
+    public int addCustomer(Customers customers) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public void deleteCustomer(int customerId) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public List<Customers> getAllCustomers() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public CustomerAccountInfo getCustomerAccountInfo(int customerId) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Customers getCustomerById(int customerId) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void updateCustomer(Customers customers) {
+        // TODO Auto-generated method stub
+        
+    }
+
+}
+    /* 
     public int addCustomer(Customers customers){
         String sql = "insert into Customers (name,email,username,password,role) values(?,?,?,?,?)";
         try{
@@ -94,5 +133,4 @@ public class CustomerDAOImpl implements CustomerDAO{
     }
     public CustomerAccountInfo getCustomerAccountInfo(int customerId){
         return new  CustomerAccountInfo();
-    }
-}
+    }*/
